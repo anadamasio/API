@@ -1,0 +1,29 @@
+body {
+    background-image: url("littlePlant.jpeg");
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.padding-cover {
+    padding-top: 7rem;
+}
+
+.rachelCarson {
+    margin-right: -65rem;
+    line-height: 10%;
+    font-size: 23px;
+    font-family: 'Cedarville Cursive', cursive;
+}
+
+.botaoEsquecer {
+    line-height: 10%;
+}
+
+.botaoEsquecer:hover {
+    color: darkblue;
+}
+
+.estiloLetra {
+    /* font-family: 'Cedarville Cursive', cursive; */
+    font-family: 'Dancing Script', cursive;
+}
