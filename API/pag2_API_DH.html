@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="/docs/5.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <title>Pesquisar!</title>
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="./Earth_symbol.svg" alt="Earth Alchemical Symbol"></a>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-navd">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+            </ul>
+          </div>
+
+          <form class="d-flex bordasBotao">
+            <input class="form-control me-2 tamanhoBarra" type="search" placeholder="Pesquisar.." aria-label="Pesquisar">
+            <button class="btn btn-outline-success ml-1 tamanhoBarra" type="submit"><i class="fas fa-leaf bordasBotao"></i></button>
+            <div class="dropdown">
+                <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fas fa-user-circle pl-4 avatar"></i> 
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Definições</a></li>
+                  <li><a class="dropdown-item" href="#">Ver favoritos</a></li>
+                  <li><a class="dropdown-item" href="#">Ver histórico</a></li>
+                  <li><a class="dropdown-item" href="#">Sair</a></li>
+                </ul>
+              </div>
+          </form>
+          
+        </div>
+    </nav>
+    <div class= "d-flex justify-content-center align-items-center baseDados">
+        <div class="d-block">
+            <h1>Base de Dados</h1>
+            <h3>Começe a pesquisar!</h3>
+            <form class="d-flex pt-4 bordasBotao">
+                <input class="form-control me-2" type="search" placeholder="Pesquisar.." aria-label="Pesquisar">
+                <button class="btn btn-outline-success ml-1" type="submit"><i class="fas fa-leaf bordasBotao"></i></button>
+            </form>
+        </div>
+    </div>
+
+    <div class="row mt-5">
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+</body>
+</html>

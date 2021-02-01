@@ -27,3 +27,7 @@ body {
     /* font-family: 'Cedarville Cursive', cursive; */
     font-family: 'Dancing Script', cursive;
 }
+
+#inputPassword4:target {
+    color: green;
+}
