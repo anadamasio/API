@@ -4,6 +4,10 @@ body {
     font-family: 'Yusei Magic', sans-serif;
 }
 
+.corNavbar {
+    background-color:hsl(30, 50%, 40%);
+}
+
 .widthCartoes {
     /* width: 50%; */
     width: 15rem;
@@ -36,8 +40,7 @@ body {
 }
 
 .tamanhoBarra {
-    /* width: 1rem;
-    height: 1rem; */
+    /* width: 0.5rem; */
 }
 
 .borboleta {
@@ -61,6 +64,39 @@ body {
     /* height: 100px; */
 }
 
+.cartao1 {
+    object-fit: cover;
+}
 .tamanhoLetra {
     font-size: 12px;
 }
+
+
+.cards2 .box2:hover .face.face2 {
+    height: 60px;
+  }
+
+  .cards2 .box2:hover .face.face2 h2 {
+    font-size: 2em;
+  }
+
+  .cards1 .box:hover .imgBx {
+    clip-path: circle(80px at center 100px);
+    transition-delay: 0s;
+  }
+
+  .cards1 .box:hover .content h2 {
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: 0.5s;
+  }
+  .cards1 .box:hover .content p {
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: 0.5s;
+  }
+  .cards1 .box:hover .content a {
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: 0.5s;
+  }
