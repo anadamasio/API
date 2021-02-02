@@ -39,3 +39,28 @@ body {
     /* width: 1rem;
     height: 1rem; */
 }
+
+.borboleta {
+    width: 5rem;
+    margin-left: -3rem;
+    margin-right: -2rem;
+    margin-top: -1.2rem;
+    fill: blue;
+    position: absolute;
+    /* https://svgsilh.com/pt/009688/image/896668.html */
+}
+
+.cartoes {
+    width: 15rem;
+    height: 17rem;
+    /* height: 10rem; */
+}
+
+.cards {
+    margin-left: 13rem;
+    /* height: 100px; */
+}
+
+.tamanhoLetra {
+    font-size: 12px;
+}
