@@ -1,0 +1,72 @@
+body {
+    font-family: 'Crimson Text', serif !important;
+  }
+
+  .corNavbar {
+    background-color:hsl(30, 50%, 40%);
+}
+
+.corLinks {
+  color: black;
+}
+
+.corLinks:hover {
+  color:rgba(37, 34, 34, 0.5);
+}
+
+.widthCartoes {
+    /* width: 50%; */
+    width: 15rem;
+    height: 15rem;
+}
+
+.bordas {
+    margin-left: 35rem;
+    /* position: absolute; */
+    /* perspective: 1px;
+    overflow: hidden; */
+    /* border-radius: 0%; */
+}
+
+.avatar {
+    /* width: 5rem;
+    height: 5rem;
+    position: relative; */
+    /* position: absolute;
+    padding: 10px; */
+    color: black;
+}
+
+.distancias {
+  margin-right: 5rem;
+
+}
+
+.dropdownMenuLink {
+    color: green;
+}
+
+
+.arvore {
+    width: 40%;
+    margin-left: 23rem;
+    overflow: hidden;
+    scroll-behavior: hidden;
+}
+
+.posicoes1 {
+    margin-top: -40rem;
+    margin-left: 53rem;
+}
+
+.posicoes2{
+    margin-top: -60rem;
+    margin-left: -11rem;
+    margin-bottom: -3rem;
+    margin-right: 2rem;
+}
+
+.posicoes3 {
+    margin-left: 20rem;
+    margin-top: -47.5rem;
+}
