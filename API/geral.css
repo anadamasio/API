@@ -5,7 +5,6 @@
 body {
     font-family: 'Crimson Text', serif !important;
     overflow-x:hidden;
-    /* font-size: 10px; */
 
   }
  
@@ -19,16 +18,15 @@ body {
 
   }
   
-  .togglerFlor {
-    height: 2rem;
-    /* fill: white !important; */
+  .corLinks:hover {
+    opacity: 0.7;
+    color:hsl(30, 85%, 79%);
   }
 
-  .corLinks:hover {
-    /* color: rgb(113, 148, 113); */
-    opacity: 0.7;
-    /* transition: 0.2s; */
+  .togglerFlor {
+    height: 2rem;
   }
+
 
 .avatar {
     color: black;
@@ -40,7 +38,6 @@ body {
   }
 
 .tamanhoBarra2 input {
-    /* padding: 0.2rem !important; */
     width: 8rem !important;
 }
 
@@ -63,8 +60,4 @@ body {
     overflow: scroll;  
 }
 
-.cartao {
-    /* margin: 20px; */
-    /* margin-left: 0; */
-} 
 }

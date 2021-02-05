@@ -1,34 +1,7 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap'); */
-
-/* body {
-  font-family: 'Crimson Text', serif !important;
-}
-
-.corNavbar {
-    background-color:hsl(30, 50%, 40%);
-}
-
-.corLinks {
-  color: black;
-}
-
-.corLinks:hover {
-  color:rgba(37, 34, 34, 0.5);
-} */
-
-body {
-  /* font-size: 10px; */
-}
-
 .widthCartoes {
-    /* width: 50%; */
     width: 15rem;
     height: 15rem;
 }
-
-/* .avatar {
-    color: black;
-} */
 
 .folhinha {
   margin-top: 1.5rem;
@@ -38,21 +11,6 @@ body {
   cursor: pointer;
   }
   
-
-/* .distancias {
-  margin-right: 2rem;
-
-} */
-
-/* .dropdownMenuLink {
-    color: green;
-} */
-
-
-/* .bordasBotao {
-  border-radius: 5px 20px 5px !important;
-} */
-
 .borboleta {
     width: 5rem;
     margin-left: -3rem;
@@ -60,34 +18,21 @@ body {
     margin-top: -1.2rem;
     fill: blue;
     position: absolute;
-    /* https://svgsilh.com/pt/009688/image/896668.html */
 }
-
-/* .carrinho {
-  margin-right: 50rem;
-  position: absolute;
-} */
 
 .cartoes {
     width: 15rem;
     height: 17rem;
-    /* height: 10rem; */
 
 }
-
 
 .cartoes:hover {
   box-shadow: 0 4px 8px 0 rgba(14, 13, 13, 0.5);
 }
-/* 
-.cartoes:hover .card-body {
-  background-color: rgb(68, 116, 138);
-} */
 
 
 .cards {
     margin-left: 13rem;
-    /* height: 100px; */
 }
 
 .cartao1 {
@@ -98,7 +43,6 @@ body {
 }
 
 .card {
-  /* width: 50%; */
   position: relative;
 }
 
@@ -108,7 +52,6 @@ body {
 
 .card:hover .text {
   text-align: center;
-  /* margin-top:-10px; */
 }
 
 .text {
@@ -122,9 +65,6 @@ body {
   color: black;
 }
 
-/* .tamanhoLetra {
-    font-size: 12px;
-} */
 
 .overlay {
   bottom: 0;
@@ -141,108 +81,6 @@ body {
 
 
 
-/* .page-content {
-  display: grid;
-  grid-gap: 1rem;
-  padding: 1rem;
-  max-width: 1024px; 
-  margin: 0 auto;
-  font-family: var(--font-sans);
-} */
-
-
-
-  /* background-image: url(https://images.unsplash.com/photo-1517021897933-0e0319cfbc28?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ); */
-  /* background-image: url(https://bs.floristic.org/image/o/85256a1c2c098e254fefe05040626a4df49ce248); */
-
-
-  /* background-image: url(https://images.unsplash.com/photo-1533903345306-15d1c30952de?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ); */
-
-  /* background-image: url(https://images.unsplash.com/photo-1545243424-0ce743321e11?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ); */
-  /* background-image: url(https://bs.floristic.org/image/o/c6d9a5222b6ef0e3a7bdef3350278718d3097bce); */
-
-
-  /* background-image: url(https://images.unsplash.com/photo-1531306728370-e2ebd9d7bb99?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ); */
-
-
-
-/* .content {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  padding: 1rem;
-  transition: transform var(--d) var(--e);
-  z-index: 1;
-} */
-/* .content > * + * {
-  margin-top: 1rem;
-} */
-
-/* .title {
-  font-size: 1.3rem;
-  font-weight: bold;
-  line-height: 1.2;
-}
-
-.copy {
-  font-family: var(--font-serif);
-  font-size: 1.125rem;
-  font-style: italic;
-  line-height: 1.35;
-} */
-
-/* .btn {
-  cursor: pointer;      
-  margin-top: 1.5rem;
-  padding: 0.75rem 1.5rem;
-  font-size: 0.65rem;
-  font-weight: bold;
-  letter-spacing: 0.025rem;
-  text-transform: uppercase;
-  color: white;
-  background-color: black;
-  border: none;
-}
-.btn:hover {
-  background-color: #0d0d0d;
-}
-.btn:focus {
-  outline: 1px dashed yellow;
-  outline-offset: 3px;
-} */
-
-
-/* 
-.cards2 .box2:hover .face.face2 {
-    height: 60px;
-  }
-
-  .cards2 .box2:hover .face.face2 h2 {
-    font-size: 2em;
-  }
-
-  .cards1 .box:hover .imgBx {
-    clip-path: circle(80px at center 100px);
-    transition-delay: 0s;
-  }
-
-  .cards1 .box:hover .content h2 {
-    opacity: 1;
-    transform: translateY(0);
-    transition-delay: 0.5s;
-  }
-  .cards1 .box:hover .content p {
-    opacity: 1;
-    transform: translateY(0);
-    transition-delay: 0.5s;
-  }
-  .cards1 .box:hover .content a {
-    opacity: 1;
-    transform: translateY(0);
-    transition-delay: 0.5s;
-  } */
 
 
 

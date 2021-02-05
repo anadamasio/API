@@ -15,25 +15,15 @@ body {
 }
 
 .widthCartoes {
-    /* width: 50%; */
     width: 15rem;
     height: 15rem;
 }
 
 .bordas {
     margin-left: 35rem;
-    /* position: absolute; */
-    /* perspective: 1px;
-    overflow: hidden; */
-    /* border-radius: 0%; */
 }
 
 .avatar {
-    /* width: 5rem;
-    height: 5rem;
-    position: relative; */
-    /* position: absolute;
-    padding: 10px; */
     color: black;
 }
 
