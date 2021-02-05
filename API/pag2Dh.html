@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="geral.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="/docs/5.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <title>Pesquisar!</title>
+</head>
+<body>
+    <!-- <nav class="navbar navbar sticky-top corNavbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./pag1_API_DH.html"><img src="./Earth_symbol.svg" alt="Earth Alchemical Symbol"></a> -->
+          <!-- <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li> -->
+          <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-navd">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+            </ul>
+          </div> -->
+
+          <!-- <form class="d-flex bordasBotao">
+            <input class="form-control me-2 tamanhoBarra" type="search" placeholder="Pesquisar.." aria-label="Pesquisar">
+            <div class= "tamanhoBarra">
+              <button class="btn btn-outline-success ml-1 tamanhoBarra" type="submit"><i class="fas fa-leaf bordasBotao"></i></button>
+            </div>
+            <div class="dropdown">
+                <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fas fa-user-circle pl-4 avatar"></i>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Definições</a></li>
+                  <li><a class="dropdown-item" href="#">Ver favoritos</a></li>
+                  <li><a class="dropdown-item" href="#">Ver histórico</a></li>
+                  <li><a class="dropdown-item" href="#">Sair</a></li>
+                </ul>
+              </div>
+          </form>
+
+        </div>
+    </nav> -->
+    <nav class="navbar navbar-expand-lg corNavbar sticky-top">
+      <a class="navbar-brand" href="./pag1_API_DH.html"><img src="./Earth_symbol.svg" alt="Earth Alchemical Symbol"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link corLinks" href="#">Pesquisar por categorias<span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link corLinks font-weight-bold" href="./pag3_API_DH.html">Contactos</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+
+          <form class="form-inline">
+            <input class="form-control mr-1" type="search" placeholder="Pesquisar.." aria-label="Search">
+            <button class="btn btn-success bordasBotao" type="submit"><i class="fas fa-leaf"></i></button>
+          </form>
+
+          <li class="nav-item">
+            <div class="dropdown">
+              <a class="nav-link dropdown-toggle distancias" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style= "color: black;">
+                <i class="fas fa-user-circle fa-2x pl-3 avatar"></i>
+              </a>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <a class="dropdown-item" href="#">Definições</a>
+                <a class="dropdown-item" href="#">Ver favoritos</a>
+                <a class="dropdown-item" href="#">Ver histórico</a>
+                <a class="dropdown-item" href="#">Sair</a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      </div>
+      <!-- <i class="fas fa-shopping-cart carrinho"></i> -->
+    </div>
+    </nav>
+    <div class= "d-flex justify-content-center align-items-center baseDados">
+        <div class="d-block">
+          <img src="./borboletaRosa.svg" class= "borboleta pl-2" alt="Borboleta">
+            <h1>Base de Dados</h1>
+            <h3>Começe a pesquisar!</h3>
+            <form class="d-flex pt-4 tamanhoBarra2">
+                <input class="form-control me-2" type="search" placeholder="Pesquisar.." aria-label="Pesquisar">
+                <button class="btn btn-outline-success ml-1 bordasBotao tamanhoBarra2" type="submit"><i class="fas fa-leaf"></i></button>
+            </form>
+            <a href="#" class="text-success tamanhoLetra">Pesquisar por categorias</a>
+        </div>
+    </div>
+    <div class="cards">
+      <div class="row m-4 w-75">
+        <div class="col-md-4 mt-2">
+          <div class="card cartoes">
+            <img class="card-img-top cartao1" src="./flor9_creepingButtercup_RanunculusRepens.jpg" alt="Card image cap">
+            <div class="overlay">
+              <div class="text">
+                <i class="fab fa-pagelines fa-2x folhinha"></i>
+                <h5 class="card-title mt-5">Informações gerais:</h5>
+                <p class="text-left">Nome comum: ...</p>
+                <p class="text-left">País de origem: ...</p>
+                <p class="text-left">Ano em que foi descoberta: ...</p>
+                <a href="#" class="btn btn-success btn-sm">Mais informações</a>
+
+                <!-- <a href="#" class="btn btn-primary btn-sm d-block mt-1">Adicionar aos favoritos</a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mt-2">
+          <div class="card cartoes">
+            <img class="card-img-top cartao1" src="./flor10_sycamoreMaple_AcerPseudoplatanus.jpg" alt="Card image cap">
+            <div class="overlay">
+              <div class="text">
+                <h5 class="card-title mt-5">Informações gerais:</h5>
+                <p class="card-text text-left">Nome comum: ...</p>
+                <p class="card-text text-left">País de origem: ...</p>
+                <p class="d-flex flex-wrap card-text text-left">Ano em que foi descoberta: ...</p>
+                <a href="#" class="btn btn-success btn-sm">Mais informações</a>
+                <a href="#" class="btn btn-primary btn-sm d-block mt-1">Adicionar aos favoritos</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mt-2">
+          <div class="card cartoes">
+            <img class="card-img-top cartao1" src="./flor3_oneseedHawthorn_CrataegusMonogyna.jpg" alt="Card image cap">
+            <div class="overlay">
+              <div class="text">
+                <h5 class="card-title mt-5">Informações gerais:</h5>
+                <p class="card-text text-left">Nome comum: ...</p>
+                <p class="card-text text-left">País de origem: ...</p>
+                <p class="card-text text-left">Ano em que foi descoberta: ...</p>
+                <a href="#" class="btn btn-success btn-sm">Mais informações</a>
+                <a href="#" class="btn btn-primary btn-sm d-block mt-1">Adicionar aos favoritos</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mt-2 ">
+          <div class="card cartoes">
+            <img class="card-img-top cartao1" src="./flor8_orchardgrass_DactylisGlomerata.jpg" alt="Card image cap">
+            <div class="overlay">
+              <div class="text">
+                <h5 class="card-title mt-5">Informações gerais:</h5>
+                <p class="card-text text-left">Nome comum: ...</p>
+                <p class="card-text text-left">País de origem: ...</p>
+                <p class="card-text text-left">Ano em que foi descoberta: ...</p>
+                <a href="#" class="btn btn-success btn-sm">Mais informações</a>
+                <a href="#" class="btn btn-primary btn-sm d-block mt-1">Adicionar aos favoritos</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mt-2 ">
+          <div class="card cartoes">
+            <img class="card-img-top cartao1" src="./flor5_sweetVernalgrass_AnthoxanthumOdoratum.jpg" alt="Card image cap">
+            <div class="overlay">
+              <div class="text">
+                <h5 class="card-title mt-5">Informações gerais:</h5>
+                <p class="card-text text-left">Nome comum: ...</p>
+                <p class="card-text text-left">País de origem: ...</p>
+                <p class="card-text text-left">Ano em que foi descoberta: ...</p>
+                <a href="#" class="btn btn-success btn-sm">Mais informações</a>
+                <a href="#" class="btn btn-primary btn-sm d-block mt-1">Adicionar aos favoritos</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mt-2">
+          <div class="card cartoes">
+            <img class="card-img-top cartao1" src="./flor4_europeanAsh_FraxinusExcelsior.jpg" alt="Card image cap">
+            <div class="overlay">
+              <div class="text">
+                <h5 class="card-title mt-5">Informações gerais:</h5>
+                <p class="card-text text-left">Nome comum: ...</p>
+                <p class="card-text text-left">País de origem: ...</p>
+                <p class="card-text text-left">Ano em que foi descoberta: ...</p>
+                <a href="#" class="btn btn-success btn-sm">Mais informações</a>
+                <a href="#" class="btn btn-primary btn-sm d-block mt-1">Adicionar aos favoritos</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mt-2">
+          <div class="card cartoes">
+            <img class="card-img-top cartao1" src="./flor6_gardenSorrel_RumexAcetosa.jpg" alt="Card image cap">
+            <div class="overlay">
+              <div class="text">
+                <h5 class="card-title mt-5">Informações gerais:</h5>
+                <p class="card-text text-left">Nome comum: ...</p>
+                <p class="card-text text-left">País de origem: ...</p>
+                <p class="card-text text-left">Ano em que foi descoberta: ...</p>
+                <a href="#" class="btn btn-success btn-sm">Mais informações</a>
+                <a href="#" class="btn btn-primary btn-sm d-block mt-1">Adicionar aos favoritos</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mt-2">
+          <div class="card cartoes">
+            <img class="card-img-top cartao1" src="./flor1_redFescue_FestucaRubra.jpg" alt="Card image cap">
+            <div class="overlay">
+              <div class="text">
+                <h5 class="card-title mt-5">Informações gerais:</h5>
+                <p class="card-text text-left">Nome comum: ...</p>
+                <p class="card-text text-left">País de origem: ...</p>
+                <p class="card-text text-left">Ano em que foi descoberta: ...</p>
+                <a href="#" class="btn btn-success btn-sm">Mais informações</a>
+                <a href="#" class="btn btn-primary btn-sm d-block mt-1">Adicionar aos favoritos</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mt-2">
+          <div class="card cartoes">
+            <img class="card-img-top cartao1" src="./flor2_redClover_TrifoliumPratense.jpg" alt="Card image cap">
+            <div class="overlay">
+              <div class="text">
+                <h5 class="card-title mt-5">Informações gerais:</h5>
+                <p class="card-text text-left">Nome comum: ...</p>
+                <p class="card-text text-left">País de origem: ...</p>
+                <p class="card-text text-left">Ano em que foi descoberta: ...</p>
+                <a href="#" class="btn btn-success btn-sm">Mais informações</a>
+                <a href="#" class="btn btn-primary btn-sm d-block mt-1">Adicionar aos favoritos</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<script>
+    $(document).ready(function(){
+        $(".folhinha").click(function(){
+            if($(".folhinha").hasClass("liked")){
+                // $(".folhinha").html('<i class="fab fa-pagelines" aria-hidden="true"></i>');
+                $(".folhinha").css("color", "white");
+                $(".folhinha").removeClass("liked");
+            }else{
+                // $(".folhinha").html('<i class="fab fa-pagelines" aria-hidden="true"></i>');
+                $(".folhinha").css("color", "red");
+                $(".folhinha").addClass("liked");
+            }
+        });
+    });
+</script>
+</body>
+
+</html>
