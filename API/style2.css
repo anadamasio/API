@@ -1,6 +1,6 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap'); */
 
-body {
+/* body {
   font-family: 'Crimson Text', serif !important;
 }
 
@@ -14,6 +14,10 @@ body {
 
 .corLinks:hover {
   color:rgba(37, 34, 34, 0.5);
+} */
+
+body {
+  /* font-size: 10px; */
 }
 
 .widthCartoes {
@@ -22,36 +26,32 @@ body {
     height: 15rem;
 }
 
-.avatar {
+/* .avatar {
     color: black;
-}
+} */
 
 .folhinha {
   margin-top: 1.5rem;
   margin-left: 4.2rem;
+  color: white;
   position: absolute;
   cursor: pointer;
   }
   
 
-.distancias {
-  margin-right: 5rem;
+/* .distancias {
+  margin-right: 2rem;
 
-}
+} */
 
-.dropdownMenuLink {
+/* .dropdownMenuLink {
     color: green;
-}
+} */
 
-.baseDados {
-    margin-top: 7rem;
-    /* width: 10px;
-    height: 10px; */
-}
 
-.tamanhoBarra {
-    /* width: 0.5rem; */
-}
+/* .bordasBotao {
+  border-radius: 5px 20px 5px !important;
+} */
 
 .borboleta {
     width: 5rem;
@@ -122,9 +122,9 @@ body {
   color: black;
 }
 
-.tamanhoLetra {
+/* .tamanhoLetra {
     font-size: 12px;
-}
+} */
 
 .overlay {
   bottom: 0;

@@ -1,0 +1,50 @@
+* {
+    font-size: 18px;
+}
+
+body {
+    font-family: 'Crimson Text', serif !important;
+    overflow-x:hidden;
+    /* font-size: 10px; */
+
+  }
+ 
+  .corNavbar {
+      background-color:hsl(30, 50%, 40%);
+  }
+  
+  .corLinks {
+    color: black;
+    transition: 0.2s;
+
+  }
+  
+  .corLinks:hover {
+    color: rgb(113, 148, 113);
+    /* transition: 0.2s; */
+  }
+
+.avatar {
+    color: black;
+}
+
+.distancias {
+    margin-right: 2rem;
+  
+  }
+
+.tamanhoBarra2 input {
+    /* padding: 0.2rem !important; */
+    width: 8rem !important;
+}
+
+.baseDados {
+    margin-top: 7rem;
+}
+.bordasBotao {
+    border-radius: 20px 5px 20px !important;
+  }
+
+.tamanhoLetra {
+    font-size: 15px;
+}
