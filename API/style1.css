@@ -1,6 +1,6 @@
 body {
     
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.6)),url("littlePlant.jpeg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.6)),url("./imagens/littlePlant.jpeg");
     background-repeat: no-repeat;
     overflow: hidden;
     background-size: cover;
